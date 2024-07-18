@@ -39,6 +39,16 @@
             justify-content: center;
             gap: 3rem;
         }
+        .feedback-container{
+            color: black;
+            justify-content: center;
+            border: solid 1px black ;
+            margin: 6rem 20.7rem;
+        }
+        .col-1{
+            display: flex;
+        }
+        
 </style>
 </head>
 <body background="./view.jpg">
@@ -60,6 +70,39 @@
         <a href="./Home.html">
             <h1>Healing habbit hub</h1>
             </a>
+                <div class="feedback-container">
+                     <form action="" method="post">
+                        <h3>Drop us A Feedback</h3>
+                        <div class="row">
+                            <div class="clo-1">
+                                <div class="div form-1">
+                                    <input type="text" class="form-control" placeholder="Your name">
+                                </div><br>
+                                <div class="div form-1">
+                                    <input type="text" class="form-control" placeholder="Your phone number">
+                                </div><br>
+                                <div class="div form-1">
+                                    <P>Did You Get Your Answer</P>
+                                    YES <input type="radio" name="1">
+                                    No <input type="radio" name="1">
+                                </div><br>
+                                <textarea name="Txt-msg" class="form-control" placeholder="Your Message" style="width: 600px; height: 150px; margin-bottom: 8px;"></textarea>
+                                <div class="div form-1">
+                                    <input type="submit" name="btnsubmit" class="btnfeedback" value="send Feedback" style="outline: none;">
+                                </div><br>
+                            </div>
+                            <div class="div clo-1">
+                                <div class="div form-1">
+                                   <input type="text" name="TextEmail" class="form-control" placeholder="Enter Email">
+                                </div>
+                            </div>
+                        </div>
+                     </form>   
+                    
+                    
+                    
+                </div>
+
     </main>
     <footer>
         <div class="footer-1">
